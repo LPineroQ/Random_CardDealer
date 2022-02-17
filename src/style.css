@@ -17,35 +17,67 @@ body {
   text-align: center;
   font-size: 75px;
 }
-:before {
+:spades.before {
+  content: "\2660";
+  color: black;
   position: absolute;
   top: 10px;
   left: 10px;
   font-size: 75px;
 }
-:after {
+:spades.after {
+  content: "\2660";
+  color: black;
   position: absolute;
   bottom: 10px;
   right: 10px;
   font-size: 75px;
 }
-:spades.before,
-:spades.after {
-  content: "\2660";
+:clubs.before {
+  content: "\2663";
   color: black;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 75px;
 }
-:clubs.before,
 :clubs.after {
   content: "\2663";
   color: black;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 75px;
 }
-:hearts.before,
+:hearts.before {
+  content: "\2665";
+  color: red;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 75px;
+}
 :hearts.after {
   content: "\2665";
   color: red;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 75px;
 }
-:diamonds.before,
+:diamonds.before {
+  content: "\2666";
+  color: red;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 75px;
+}
 :diamonds.after {
   content: "\2666";
   color: red;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 75px;
 }

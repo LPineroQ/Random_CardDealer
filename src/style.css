@@ -6,7 +6,6 @@ body {
 }
 .card {
   background: white;
-  display: inline-block;
   margin: auto;
   width: 250px;
   height: 400px;
@@ -17,36 +16,36 @@ body {
   position: relative;
   text-align: center;
   font-size: 75px;
-  &:before {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    font-size: 75px;
-  }
-  &:after {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    font-size: 75px;
-  }
-  &:spades.before,
-  &:spades.after {
-    content: "\2660";
-    color: black;
-  }
-  &:clubs.before,
-  &:clubs.after {
-    content: "\2663";
-    color: black;
-  }
-  &:hearts.before,
-  &:hearts.after {
-    content: "\2665";
-    color: red;
-  }
-  &:diamonds.before,
-  &:diamonds.after {
-    content: "\2666";
-    color: red;
-  }
+}
+:before {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 75px;
+}
+:after {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 75px;
+}
+:spades.before,
+:spades.after {
+  content: "\2660";
+  color: black;
+}
+:clubs.before,
+:clubs.after {
+  content: "\2663";
+  color: black;
+}
+:hearts.before,
+:hearts.after {
+  content: "\2665";
+  color: red;
+}
+:diamonds.before,
+:diamonds.after {
+  content: "\2666";
+  color: red;
 }
